@@ -11,3 +11,11 @@ Purchased from:                     |  a   |    b   |  c  |
           a                         .6        .4          .3
           b                         .1        .7           0
           c                         .8        .2          .3
+          
+
+
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
