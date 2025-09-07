@@ -13,6 +13,7 @@ Purchased from:                     |  a   |    b   |  c  |
           c                         .8        .2          .3
           
           
+          
 |Inputs purchased from|
 -----------------------
 |Purchased from|Manufacturing|Agriculture|Services|
@@ -22,6 +23,8 @@ Purchased from:                     |  a   |    b   |  c  |
 |              | 0.4         | 0.2 | 0.1|
 -------------------------------------------
 |Services      | 0.3         | 0.4 | 0.3|
+=======
+
 
 
 | Month    | Savings |
