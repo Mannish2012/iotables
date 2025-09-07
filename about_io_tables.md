@@ -6,7 +6,7 @@ of every sector (including itself) to it.
 For example, suppose we have a simplified economy that consists of only 3 sectors, *a*,*b* and *c*.
 
                                     Inputs consumed per unit of output
-Purchased from:                     a       |    b        |c
+Purchased from:                     |  a   |    b   |  c  |
 -----------------------------------------------------------------------
           a                         .6        .4          .3
           b                         .1        .7           0
