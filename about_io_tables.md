@@ -16,11 +16,9 @@ Purchased from:                     |  a   |    b   |  c  |
           
 
 |Purchased from|Manufacturing|Agriculture|Services|
-|-------------  ------------- ----------- --------|
+|------------- |------------- | ----------- | --------|
 |Manufacturing | 0.5         | 0.4 | 0.2|
-
 |Agriculture   | 0.4         | 0.2 | 0.1|
-
 |Services      | 0.3         | 0.4 | 0.3|
 
 
