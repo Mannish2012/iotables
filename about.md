@@ -30,6 +30,11 @@ is square (as is the case here), and the columns are independent, then the matri
 and can be represented as: 
 
 $(I-C)x = d$, where $I$ is the *identity matrix* of dimension *n*. Therefore, as $I-C$ is itself
-nonsingular, the final equation is $x = (I-C)^{-1}d$
+nonsingular, the final equation is $x = (I-C)^{-1}d$. 
+
+## Why is $(I-c)^{-1}$ important?
+
+The $j_{th}$ column of $(I-c)^{-1}$ shows the amount that every sector has to produce to satisfy
+an addditional increase of one unit in the **final demand** from sector *j*. 
 
 
