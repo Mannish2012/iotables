@@ -19,7 +19,7 @@ itself, $40\%$ from agriculture, and $30\%$ from services.
 The column sums must be less than 1. 
 
 The basic equation of is
-$amount&nbsp;produced = intermediate&nbsp;demand + final&nbsp;demand$
+$amount &nbsp; produced = intermediate &nbsp; demand + final&nbsp;demand$
 
 The *amount produced* and the *final demand* are both vectors in $R^n$. The intermediate demand
 however, is a matrix. In fact, this matrix, called the **consumption matrix** is the product *Cx*,
