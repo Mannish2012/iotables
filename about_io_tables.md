@@ -22,11 +22,11 @@ The basic equation of is
 $amount{ produced} = intermediate{ demand} + final{ demand}$
 
 The *amount produced* and the *final demand* are both vectors in $R^n$. The intermediate demand
-however, is a matrix. In fact, this matrix, called the **consumption matrix** is the product *Cx*,
-where $C$ is the matrix of the coefficients of the vectors, and $x$, is the production vector.
+however, is a matrix. In fact, this matrix, called the **consumption matrix** is the product $C\textbf{x}$,
+where $C$ is the matrix of the coefficients of the vectors, and $\textbf{x}$, is the production vector.
 
-The equation is, hence, $x = Cx + d$, where *d* is the *final demand vector*. Now if the matrix
+The equation is, hence, $\textbf{x} = C\textbf{x} + d$, where *d* is the *final demand vector*. Now if the matrix
 is square (as is the case here), and the columns are independent, then the matrix is nonsingular,
 and can be represented as: 
 
-$(I-C)x = d$, where $I$ is the *identity matrix* of dimension *n*. 
+$(I-C)\textbf{x} = \textbf{d}$, where $I$ is the *identity matrix* of dimension *n*. 
