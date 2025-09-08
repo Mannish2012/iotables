@@ -29,6 +29,7 @@ The equation is, hence, $x = Cx + d$, where **d** is the *final demand vector*. 
 is square (as is the case here), and the columns are independent, then the matrix is nonsingular,
 and can be represented as: 
 
-$(I-C)x = d$, where $I$ is the *identity matrix* of dimension *n*. 
+$(I-C)x = d$, where $I$ is the *identity matrix* of dimension *n*. Therefore, as $I-C$ is itself
+nonsingular, the final equation is $x = (I-C)^-1d$
 
-**Changes**
+
