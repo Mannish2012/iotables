@@ -92,20 +92,12 @@ sectorwise_backward_linkages(2011,'Inland transport', type = "direct")
 all_years <- 2010:2022
 sector_names <- readRDS("data/sector_names.RDS")
 
-mapply(function(x,y) sectorwise_backward_linkages(x,y,type = "direct"),
-       all_years, sector_names)
 
-system.time(lapply(all_years, function(years){
+lapply(all_years, function(years){
   lapply(sector_names, function(sectors){
     sectorwise_backward_linkages(years,sectors,type = 'direct')
     }) |> setNames(sector_names)
-  }) |> setNames(all_years))
+  }) |> setNames(all_years)
 
 
-
-
-lapply(all_years, function(x){
-  lapply(sector_names, function(y))
-  sectorwise_backward_linkages(x,'Inland transport', type = 'direct')}) |>
-  setNames(all_years)
 
