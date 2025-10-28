@@ -100,16 +100,16 @@ ranking <- function(sector, type){
 # all sectors that have backward linkages to sector j are ranked in order of importance 
 ## and the unnormalized values of their contributions are shown
 
-# direct backward linkages
+# direct backward linkages for the year 2010 for ALL sectors
 
 lapply(colnames(A), function(x) ranking(x, "direct")) |> 
   setNames(colnames(A)) |>
   bind_rows(.id = "target sector") |>
-  rename("input sector" = "sector") -> bl.ranking_2022_direct
+  rename("input sector" = "sector") -> bl.ranking_2010_direct
 
-# total backward linkages
+# total backward linkages for the year 2010 for ALL sectors
 
 lapply(colnames(L), function(x) ranking(x, "total")) |> 
   setNames(colnames(L)) |>
   bind_rows(.id = "target sector") |>
-  rename("input sector" = "sector") -> bl.ranking_2022_total
+  rename("input sector" = "sector") -> bl.ranking_2010_total
